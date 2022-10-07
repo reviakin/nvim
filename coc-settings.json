@@ -1,0 +1,22 @@
+{
+  "coc.preferences.formatOnSaveFiletypes": [
+    "markdown",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "json",
+    "graphql",
+    "elixir"
+  ],
+  "cSpell.userWords": [
+    "Bistox",
+    "Booky",
+    "Geetest",
+    "Sumsub",
+    "movrodii",
+    "stylelint"
+  ],
+  "cSpell.language": "ru,en",
+  "cSpellExt.enableDictionaries": ["russian"]
+}

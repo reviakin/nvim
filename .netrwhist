@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/Users/dmitry/code/learning/go/web-service-gin'
+let g:netrw_dirhist_1='/Users/dmitry/.config/nvim'
+let g:netrw_dirhist_0='/Users/dmitry/code/jobs/bistox/ocelot/packages/definitions/src'
+let g:netrw_dirhist_9='/Users/dmitry/code/jobs/bistox/ocelot/packages/definitions'
+let g:netrw_dirhist_8='/Users/dmitry/code/jobs/bistox/ocelot/packages'
+let g:netrw_dirhist_7='/Users/dmitry/code/jobs/bistox/ocelot'
+let g:netrw_dirhist_6='/Users/dmitry/code/jobs/bistox/ocelot/micro-services'
+let g:netrw_dirhist_5='/Users/dmitry/code/jobs/bistox/ocelot/micro-services/Affiliate'
+let g:netrw_dirhist_4='/Users/dmitry/code/jobs/bistox/ocelot/micro-services/Affiliate/src'
+let g:netrw_dirhist_3='/Users/dmitry/code/jobs/bistox/ocelot/micro-services/Affiliate/src/containers'

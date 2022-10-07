@@ -74,181 +74,20 @@ end
 time([[try_loadstring definition]], false)
 time([[Defining packer_plugins]], true)
 _G.packer_plugins = {
-  LuaSnip = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/LuaSnip",
-    url = "https://github.com/L3MON4D3/LuaSnip"
-  },
-  ale = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/ale",
-    url = "https://github.com/dense-analysis/ale"
-  },
-  ["cmp-buffer"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/cmp-buffer",
-    url = "https://github.com/hrsh7th/cmp-buffer"
-  },
-  ["cmp-nvim-lsp"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/cmp-nvim-lsp",
-    url = "https://github.com/hrsh7th/cmp-nvim-lsp"
-  },
-  ["cmp-tabnine"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/cmp-tabnine",
-    url = "https://github.com/tzachar/cmp-tabnine"
-  },
-  cmp_luasnip = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
-    url = "https://github.com/saadparwaiz1/cmp_luasnip"
-  },
-  ["git-worktree.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/git-worktree.nvim",
-    url = "https://github.com/ThePrimeagen/git-worktree.nvim"
-  },
-  gruvbox = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/gruvbox",
-    url = "https://github.com/gruvbox-community/gruvbox"
-  },
-  harpoon = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/harpoon",
-    url = "https://github.com/ThePrimeagen/harpoon"
-  },
-  ["iron.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/iron.nvim",
-    url = "https://github.com/hkupty/iron.nvim"
-  },
-  ["jupyter_ascending.vim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/jupyter_ascending.vim",
-    url = "https://github.com/untitled-ai/jupyter_ascending.vim"
-  },
-  ["lsp_extensions.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/lsp_extensions.nvim",
-    url = "https://github.com/nvim-lua/lsp_extensions.nvim"
-  },
-  ["lspkind-nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/lspkind-nvim",
-    url = "https://github.com/onsails/lspkind-nvim"
-  },
-  ["lspsaga.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/lspsaga.nvim",
-    url = "https://github.com/glepnir/lspsaga.nvim"
-  },
-  ["lualine.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/lualine.nvim",
-    url = "https://github.com/nvim-lualine/lualine.nvim"
-  },
-  neoformat = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/neoformat",
-    url = "https://github.com/sbdchd/neoformat"
-  },
-  neogit = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/neogit",
-    url = "https://github.com/TimUntersberger/neogit"
-  },
-  ["nvim-cmp"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-cmp",
-    url = "https://github.com/hrsh7th/nvim-cmp"
-  },
-  ["nvim-dap"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-dap",
-    url = "https://github.com/mfussenegger/nvim-dap"
-  },
-  ["nvim-dap-ui"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-dap-ui",
-    url = "https://github.com/rcarriga/nvim-dap-ui"
-  },
-  ["nvim-dap-virtual-text"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-dap-virtual-text",
-    url = "https://github.com/theHamsta/nvim-dap-virtual-text"
-  },
-  ["nvim-ipy"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-ipy",
-    url = "https://github.com/bfredl/nvim-ipy"
-  },
   ["nvim-lspconfig"] = {
     loaded = true,
     path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
-  },
-  ["nvim-treesitter"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
-    url = "https://github.com/nvim-treesitter/nvim-treesitter"
-  },
-  ["nvim-treesitter-context"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/nvim-treesitter-context",
-    url = "https://github.com/romgrk/nvim-treesitter-context"
-  },
-  ["nvim-web-devicons"] = {
-    loaded = false,
-    needs_bufread = false,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/opt/nvim-web-devicons",
-    url = "https://github.com/kyazdani42/nvim-web-devicons"
   },
   ["packer.nvim"] = {
     loaded = true,
     path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
   },
-  playground = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/playground",
-    url = "https://github.com/nvim-treesitter/playground"
-  },
-  ["plenary.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/plenary.nvim",
-    url = "https://github.com/nvim-lua/plenary.nvim"
-  },
-  ["popup.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/popup.nvim",
-    url = "https://github.com/nvim-lua/popup.nvim"
-  },
-  ["rust-tools.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/rust-tools.nvim",
-    url = "https://github.com/simrat39/rust-tools.nvim"
-  },
-  ["symbols-outline.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/symbols-outline.nvim",
-    url = "https://github.com/simrat39/symbols-outline.nvim"
-  },
-  ["telescope.nvim"] = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/telescope.nvim",
-    url = "https://github.com/nvim-telescope/telescope.nvim"
-  },
   ["tokyonight.nvim"] = {
     loaded = true,
     path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/tokyonight.nvim",
     url = "https://github.com/folke/tokyonight.nvim"
-  },
-  undotree = {
-    loaded = true,
-    path = "/Users/dmitry/.local/share/nvim/site/pack/packer/start/undotree",
-    url = "https://github.com/mbbill/undotree"
   }
 }
 

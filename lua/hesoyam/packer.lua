@@ -9,5 +9,7 @@ return require("packer").startup(function()
         run = ":TSUpdate"
     })
 
-}
+
+    -- Neogit
+    use { 'TimUntersberger/neogit', requires = 'nvim-lua/plenary.nvim' }
 end)

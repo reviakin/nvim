@@ -4,6 +4,7 @@ return require('packer').startup(function(use)
 
   use({ 'rose-pine/neovim', as = 'rose-pine' })
   use 'nvim-telescope/telescope.nvim'
+  use 'nvim-telescope/telescope-fzf-native.nvim'
   use "nvim-lua/plenary.nvim"
   use 'nvim-treesitter/nvim-treesitter'
   use {
@@ -16,5 +17,6 @@ return require('packer').startup(function(use)
       'hrsh7th/cmp-nvim-lsp',
   }
   use 'tpope/vim-fugitive'
+  use 'nvim-lualine/lualine.nvim'
 end)
 

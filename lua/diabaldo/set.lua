@@ -29,7 +29,7 @@ vim.opt.isfname:append("@-@")
 vim.opt.updatetime = 50
 
 -- clipboard
---vim.opt.clipboard:append("unnamedplus")
+vim.opt.clipboard:append("unnamedplus")
 --vim.opt.colorcolumn = "80"
 -- spell checking
 vim.opt.spell = true

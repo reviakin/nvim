@@ -27,9 +27,19 @@ use {
     {'L3MON4D3/LuaSnip'},
   }
 }
+use {
+  'mrcjkb/rustaceanvim',
+  version = '^4', -- Recommended
+  ft = { 'rust' },
+}
   use 'tpope/vim-fugitive'
   -- use 'nvim-lualine/lualine.nvim'
   use 'ThePrimeagen/harpoon'
   use("mbbill/undotree")
+  -- prettier
+  use 'neovim/nvim-lspconfig'
+  use 'jose-elias-alvarez/null-ls.nvim'
+  use 'MunifTanjim/prettier.nvim'
+  use "folke/zen-mode.nvim"
 end)
 
